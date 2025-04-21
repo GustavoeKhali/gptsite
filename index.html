@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Falco - Moda Urbana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1 class="logo">Falco</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Explore o melhor da moda urbana</h2>
+    <p>Estilo, conforto e atitude em um só lugar</p>
+    <a href="#produtos" class="btn">Ver Coleção</a>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Novidades da coleção</h2>
+    <div class="produto-lista">
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1a5?auto=format&fit=crop&w=400&q=80" alt="Camiseta Oversized" />
+        <h3>Camiseta Oversized</h3>
+        <p>R$ 89,90</p>
+        <button onclick="pagarMercadoPago('Camiseta Oversized', 89.90)">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1593032465171-d55d1dfb3d8e?auto=format&fit=crop&w=400&q=80" alt="Moletom Canguru" />
+        <h3>Moletom Canguru</h3>
+        <p>R$ 149,90</p>
+        <button onclick="pagarMercadoPago('Moletom Canguru', 149.90)">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1602810318004-121ff3f7f94f?auto=format&fit=crop&w=400&q=80" alt="Calça Jogger" />
+        <h3>Calça Jogger</h3>
+        <p>R$ 119,90</p>
+        <button onclick="pagarMercadoPago('Calça Jogger', 119.90)">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1622489075812-91e1e6c46274?auto=format&fit=crop&w=400&q=80" alt="Boné Snapback" />
+        <h3>Boné Snapback</h3>
+        <p>R$ 59,90</p>
+        <button onclick="pagarMercadoPago('Boné Snapback', 59.90)">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Falco. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
